@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{563301E6-F16A-404D-B63E-E42464205628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colculation", "Colculation\Colculation.csproj", "{DC2FD24C-44B5-4180-98BC-BC07DC4A406D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{563301E6-F16A-404D-B63E-E42464205628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563301E6-F16A-404D-B63E-E42464205628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563301E6-F16A-404D-B63E-E42464205628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563301E6-F16A-404D-B63E-E42464205628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2FD24C-44B5-4180-98BC-BC07DC4A406D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2FD24C-44B5-4180-98BC-BC07DC4A406D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2FD24C-44B5-4180-98BC-BC07DC4A406D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2FD24C-44B5-4180-98BC-BC07DC4A406D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8A782D0-5D0F-4467-B5ED-4E068E018CE3}
+	EndGlobalSection
+EndGlobal

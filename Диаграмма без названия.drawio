@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Страница-1" id="XbZJLYY9h_xAm1Q84tte">
+    <mxGraphModel dx="910" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="clpBNFgGSWrgn25ttmrk-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mainframe_host.svg;" value="" vertex="1">
+          <mxGeometry height="80" width="57.6" x="90" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-2" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="89.29" width="50" x="480" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-3" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" value="" vertex="1">
+          <mxGeometry height="37" width="50" x="93.8" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-4" edge="1" parent="1" source="clpBNFgGSWrgn25ttmrk-3" style="endArrow=none;html=1;rounded=0;" target="clpBNFgGSWrgn25ttmrk-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="389" />
+              <mxPoint x="210" y="320" />
+              <mxPoint x="505" y="320" />
+            </Array>
+            <mxPoint x="370" y="420" as="sourcePoint" />
+            <mxPoint x="420" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-5" edge="1" parent="1" source="clpBNFgGSWrgn25ttmrk-3" style="endArrow=none;html=1;rounded=0;" target="clpBNFgGSWrgn25ttmrk-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="389" />
+              <mxPoint x="40" y="420" />
+            </Array>
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Роутер" vertex="1">
+          <mxGeometry height="10" width="50" x="93.80000000000001" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Хранилище NAS" vertex="1">
+          <mxGeometry height="10" width="60" x="90" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="clpBNFgGSWrgn25ttmrk-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сервер" vertex="1">
+          <mxGeometry height="10" width="50" x="480" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
